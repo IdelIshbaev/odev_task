@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ad2be8-975c-4e8a-b500-152d0a79cb8d" name="Default Changelist" comment="" />
+    <list default="true" id="20ad2be8-975c-4e8a-b500-152d0a79cb8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/11aa5224322339f3c1d17a00eae699fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/11aa5224322339f3c1d17a00eae699fd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/17a5aa9706998c83ce348538677ffbe3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/17a5aa9706998c83ce348538677ffbe3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5c1d2e07c984e1b220c2aebbb6f14d45.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5c1d2e07c984e1b220c2aebbb6f14d45.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d0a8cf5946c77c431d50f44e04d5fa31.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d0a8cf5946c77c431d50f44e04d5fa31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f136ddffd86852188cec2fb8361f0b4f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f136ddffd86852188cec2fb8361f0b4f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f95f801106d59aa6837aef9b580dfc27.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f95f801106d59aa6837aef9b580dfc27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +81,8 @@
       <updated>1587679079196</updated>
       <workItem from="1587679081601" duration="20018000" />
       <workItem from="1587743312364" duration="494000" />
+      <workItem from="1587744836927" duration="292000" />
+      <workItem from="1587749353892" duration="2972000" />
     </task>
     <servers />
   </component>

@@ -1,42 +1,29 @@
 <template>
 
     <div class="main_back">
-        <div class="header"></div>
         <h1>O.dev test task</h1>
         <ul v-for="(value, key) in posts" v-bind:key="value">
             <template v-if="key === 'rates'">
                     <table>
                         <tr>
-                            <th class="f_th">Currency</th>
-                            <th>Rate</th>
+                            <th class="col_name"><h1>Currency</h1></th>
+                            <th class="col_name"><h1>Rate</h1></th>
                         </tr>
-                    </table>
-                <p v-for="(values, key) in value" v-bind:key="values">
-                    <table>
-                        <tr>
+                        <tr v-for="(values, key) in value" v-bind:key="values">
                             <th class="f_th">
-                            <span class="left">{{key}}</span>
+                                <span class="left"><p>{{key}}</p></span>
                             </th>
-                            <th>
-                            <span class="left">{{values}}</span>
+                            <th class="f_th">
+                                <span class="left"><p>{{values}}</p></span>
                             </th>
                         </tr>
                     </table>
-                </p>
             </template>
             <template v-else>
-                <table>
-                    <tr>
-                        <th class="f_th">
-                            <span class="left">{{key}}</span>
-                        </th>
-                        <th class="f_th">
-                            <span class="left">{{value}}</span>
-                        </th>
-                    </tr>
-                </table>
+                <span class="date">{{key}}: {{value}}</span>
             </template>
         </ul>
+        <p class="by">by Idel Ishbaev - i.ishbaev@innopolis.university</p>
     </div>
 </template>
 
@@ -77,14 +64,14 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/*#app {*/
+/*  font-family: Avenir, Helvetica, Arial, sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*  text-align: center;*/
+/*  color: #2c3e50;*/
+/*  margin-top: 60px;*/
+/*}*/
   table{
     width: 400px;
     margin-left: auto;
@@ -96,31 +83,54 @@ export default {
 
   }
   tr:nth-child(even){
-    background-color: #fff;
+        border: 1px solid black;
+    background-color: #b6bcc9;
       text-align: left;
 
   }
   tr:nth-child(odd){
-    background-color: #ddd;
+      background-color: #ddd;
       text-align: left;
   }
-.main_back {
-    background-image: url("assets/back1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 4px;
-    margin-top: 1px;
-}
-h1{
-    font-family: "Poppins";
-    text-align: center;
-    font-weight: 100;
-    color: #000000;
-    margin-top: 1px;
-}
+    .main_back {
+        background-image: url("assets/back1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 4px;
+        margin-top: 1px;
+    }
+    h1{
+        font-family: "Poppins";
+        text-align: center;
+        font-weight: 100;
+        color: #000000;
+        margin-top: 1px;
+    }
     .f_th{
+        font-family: Georgia;
+        font-size: 80%;
+        padding-left: 10%;
+    }
+    .col_name{
+        font-family: Georgia;
+        font-size: 80%;
         width: 50%;
+        background-color: #98b2e6;
+
+    }
+    .date{
+        font-family: Georgia;
+        font-size: 80%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+    .by{
+        font-family: Georgia;
+        font-size: 80%;
+        text-align: left;
+        padding-left: 3%;
+        padding-bottom: 1%;
     }
 
 </style>
