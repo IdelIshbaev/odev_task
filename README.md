@@ -1,12 +1,12 @@
 # odev_task 
-#####by Idel Ishaev, i.ishbaev@innopolis.unniversity
+##### by Idel Ishaev, i.ishbaev@innopolis.unniversity
 1. You need to install [Docker](https://www.docker.com/)
 2. Clone this project on your computer
 3. With terminal go to directory web_app_swp
 4. In terminal run
-###hint:
-#####"odev_task" - filename 
-#####"odev_task-1" - filename+"-1"
+### hint:
+##### "odev_task" - filename 
+##### "odev_task-1" - filename+"-1"
 ```
 docker build -t odev_task .
 docker run -it -p 8080:8080 --rm --name odev_task-1 odev_task
