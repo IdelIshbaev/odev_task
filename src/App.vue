@@ -2,8 +2,8 @@
 
     <div class="main_back">
         <h1>O.dev test task</h1>
-        <ul v-for="(value, key) in posts" v-bind:key="value">
-            <template v-if="key === 'rates'">
+        <div v-for="(value, key) in posts" v-bind:key="value">
+            <div v-if="key === 'rates'">
                     <table>
                         <tr>
                             <th class="col_name"><h1>Currency</h1></th>
@@ -18,11 +18,11 @@
                             </th>
                         </tr>
                     </table>
-            </template>
-            <template v-else>
+            </div>
+            <div v-else>
                 <span class="date">{{key}}: {{value}}</span>
-            </template>
-        </ul>
+            </div>
+        </div>
         <p class="by">by Idel Ishbaev - i.ishbaev@innopolis.university</p>
     </div>
 </template>
@@ -123,7 +123,9 @@ export default {
         font-family: Georgia;
         font-size: 80%;
         padding-bottom: 1%;
-        text-align: center;
+        text-align: left;
+        padding-left: 3%;
+
     }
     .by{
         font-family: Georgia;
