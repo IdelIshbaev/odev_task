@@ -34,14 +34,13 @@ export default {
   data() {
     return {
       posts: [],
-      errors: []
     }
   },
 
   // Fetches posts when the component is created.
   created() {
     axios.get(`https://api.exchangeratesapi.io/latest`)
-    // axios.get(`http://jsonplaceholder.typicode.com/posts`)
+    // axios.get(``)
     .then(response => {
       // JSON responses are automatically parsed.
       this.posts = response.data
