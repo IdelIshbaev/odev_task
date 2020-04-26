@@ -23,7 +23,7 @@
                 <span class="date">{{key}}: {{value}}</span>
             </div>
         </div>
-        <p class="by">by Idel Ishbaev - i.ishbaev@innopolis.university</p>
+        <p class="date">by Idel Ishbaev - i.ishbaev@innopolis.university</p>
     </div>
 </template>
 
@@ -125,14 +125,7 @@ export default {
         padding-bottom: 1%;
         text-align: left;
         padding-left: 3%;
+    }
 
-    }
-    .by{
-        font-family: Georgia;
-        font-size: 80%;
-        text-align: left;
-        padding-left: 3%;
-        padding-bottom: 1%;
-    }
 
 </style>
