@@ -1,8 +1,8 @@
 <template>
 
     <div class="main_back">
-        <h1>{{posts}}</h1>
-        <h1>O.dev test task</h1>
+        <!-- <h1>{{posts}}</h1> -->
+        <h1>Test task</h1>
         <div v-for="(value, key) in posts" v-bind:key="value">
             <div v-if="key === 'rates'">
                     <table>
